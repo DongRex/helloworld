@@ -8,7 +8,10 @@
 
 
 
-关于work.py 中 basekey 如何获取 查看help文件
+关于work.py 中 basekey 如何获取 
+
+1. 在提交的时候按f12 图1
+2. 提交 然后选中刚才提交的找到F_state 就是basekey 内容 图2和图3
 
 
 
