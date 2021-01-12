@@ -15,3 +15,6 @@
 
 
 
+liunx 下定时任务
+
+crontab -e
