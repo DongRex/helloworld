@@ -11,4 +11,4 @@
 关于work.py 中 basekey 如何获取
 
 
-![avatar](https://github.com/DongRex/helloworld/blob/main/1.png)
+![avatar](http://www.coderex.top/1.png)
