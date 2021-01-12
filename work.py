@@ -168,6 +168,6 @@ for i in result:
     # print(i[0]+" "+pas)
 cursor.close()
 db.close()
-# login('20191112520','cxd034912')
+# login('','')
 
 
