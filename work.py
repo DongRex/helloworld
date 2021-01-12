@@ -156,18 +156,21 @@ def login(username, password):
     except:
         # work(username,password,email)
 	    print(username+"登录失败")
-       
-db = pymysql.connect("localhost","","","" )
-cursor = db.cursor()
-sql = "SELECT username,password,email,state FROM user order by id desc"
-cursor.execute(sql)
-result = cursor.fetchall()
-for i in result:
-    pas=AES_Decrypt(key,i[1])
-    login(i[0],pas)
-    # print(i[0]+" "+pas)
-cursor.close()
-db.close()
+#批量每日一报
+# db = pymysql.connect("localhost","","","" )
+# cursor = db.cursor()
+# sql = "SELECT username,password,email,state FROM user order by id desc"
+# cursor.execute(sql)
+# result = cursor.fetchall()
+# for i in result:
+#     pas=AES_Decrypt(key,i[1])
+#     login(i[0],pas)
+#     # print(i[0]+" "+pas)
+# cursor.close()
+# db.close()
+
+#单个每日一报
+
 # login('','')
 
 
