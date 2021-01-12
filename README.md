@@ -11,4 +11,4 @@
 关于work.py 中 basekey 如何获取
 
 
-![avatar](/1.png)
+![avatar](1.png)
