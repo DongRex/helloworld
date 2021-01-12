@@ -8,7 +8,7 @@
 
 
 
-关于work.py 中 basekey 如何获取
+关于work.py 中 basekey 如何获取 查看help文件
 
 
-![image](http://www.coderex.top/1.png)
+
